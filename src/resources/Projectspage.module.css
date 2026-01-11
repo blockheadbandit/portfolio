@@ -1,0 +1,12 @@
+.MainPanel{	
+	position: relative;
+	top: 100px;
+	width:fit-content;
+	margin-inline: auto;
+	background-color:var(--secondary-bg-col);
+	padding: 15px;
+	
+	border: 5px solid var(--accent-col);
+	border-radius: 20px;
+
+}

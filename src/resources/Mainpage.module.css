@@ -1,0 +1,89 @@
+:root{
+	--primary-bg-col: #000000;
+	--secondary-bg-col: #0c0c0e;
+	--accent-col: #222226;
+	--accent-col-alt:#ccccce;
+	--primary-component-col: #1d1d1f;
+	--secondary-component-col: #e4e4e6;
+
+}
+
+
+.MenuBar{
+	position: fixed;
+	top: 8px;
+	left:0px;
+	right:0px;
+	width: fit-content;
+	max-width: calc(100vw - 8px * 2);
+	margin-inline: auto;
+	display: flex;
+	background-color: var(--secondary-bg-col);
+	justify-content: center;
+	padding: 10px;
+	border: 5px;
+	border-radius: 20px;
+	height: 50px;
+}
+
+.ButtonMenu{
+	display: flex;
+}
+
+.MainPanel{	
+	position: relative;
+	top: 100px;
+	width:fit-content;
+	margin-inline: auto;
+	background-color:var(--secondary-bg-col);
+	padding: 15px;
+	
+	border: 5px solid var(--accent-col);
+	border-radius: 20px;
+
+}
+
+.RoundedButton{	
+	background-color: var(--primary-component-col);
+	color: var(--secondary-component-col);	
+	text-decoration:none;
+
+	justify-content: center;
+	align-items: center;
+
+	border: 5px solid var(--accent-col);
+	border-radius: 25px;
+	
+	width:fit-content;
+
+	max-height: fit-content;
+	
+	padding: 10px 15px;
+
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+.RoundedButton:hover {
+	background-color: #363639;
+	border-color: #3a3a41;
+
+
+}
+
+
+.RoundedButton img{
+	height: 2em;
+	width: 2em;
+}
+
+.DownloadButton{
+	composes: RoundedButton;
+	background-color: var(--secondary-component-col);
+	color: var(--primary-component-col);
+	border-color: var(--accent-col-alt)
+}
+.DownloadButton:hover{
+	background-color: #afafb5;
+	border-color:#98989c;
+}
