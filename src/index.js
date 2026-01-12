@@ -6,19 +6,19 @@ import Contact from './pages/Contactpage.js'
 import Projects from './pages/Projectspage.js'
 import About from './pages/Aboutpage.js'
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
+import {HashRouter, Routes, Route, Link} from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		<BrowserRouter>
+		<HashRouter>
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/projects" element={<Projects />} />
 			</Routes>
-		</BrowserRouter>
+		</HashRouter>
 	</React.StrictMode>
 );
 

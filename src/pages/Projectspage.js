@@ -8,8 +8,8 @@ export default function Projects() {
 	 <TopBar /> 
 	  <div className={styles.MainPanel}>
 		<div>
-			<h1>About Me</h1>
-			<p>add styled panels for my github projects</p>
+			<h1>My Projects</h1>
+			<p>I currently do not have any projects uploaded yet. Check back later once I have gotten around to fleshing this page out</p>
 		</div>
 	  </div>
 	</div>

@@ -24,10 +24,12 @@
 	border: 5px;
 	border-radius: 20px;
 	height: 50px;
+	gap: 10px;
 }
 
 .ButtonMenu{
 	display: flex;
+	gap: 10px;
 }
 
 .MainPanel{	
@@ -67,8 +69,6 @@
 .RoundedButton:hover {
 	background-color: #363639;
 	border-color: #3a3a41;
-
-
 }
 
 
@@ -77,13 +77,17 @@
 	width: 2em;
 }
 
-.DownloadButton{
+.LightButton{
 	composes: RoundedButton;
 	background-color: var(--secondary-component-col);
 	color: var(--primary-component-col);
 	border-color: var(--accent-col-alt)
 }
-.DownloadButton:hover{
+.LightButton:hover{
 	background-color: #afafb5;
 	border-color:#98989c;
+}
+.HomeIcon{
+	height: 1.3em !important;
+	width: 1.3em !important;
 }
