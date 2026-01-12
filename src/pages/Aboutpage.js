@@ -34,7 +34,7 @@ export default function About() {
 			<a className={styles.RoundedButton} href="https://open.spotify.com/track/6Iau16etlRenIRlsgcCITU"> My Song</a>
 			<p>
 				I have also gotten very into reading, it's a great way of winding down before bed. My collection of books currently consists of about 90% Star Wars books and 10% Manga.
-				Books have also been helping me develop better vernacular which also helps when it comes to writing songs (which I'm still not the best at).
+				Books have also been helping me develop a more fleshed out vocabulary which also helps when it comes to writing songs (which I'm still not the best at).
 			</p>
 			<h2> Gaming </h2>
 			<p>

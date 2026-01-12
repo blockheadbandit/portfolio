@@ -29,7 +29,7 @@ export default function Projects() {
 	  <div className={styles.MainPanel}>
 		<div>
 			<h1>My Projects</h1>
-			<p>I currently do not have any projects uploaded yet. Check back later once I have gotten around to fleshing this page out</p>
+			<p>Here are all the projects I have worked on and uploaded to the public, feel free to take a look at the code or download a release</p>
 			<ProjectEntry name="Portfolio Website"
 				desc="I made this website with React, you can find the project repo below."
 				repo="https://github.com/blockheadbandit/portfolio/tree/master"
@@ -39,6 +39,9 @@ export default function Projects() {
 				repo="https://github.com/blockheadbandit/Ktempsensor" 
 				release="https://github.com/blockheadbandit/Ktempsensor/releases"
 			/>
+			
+
+
 		</div>
 		
 	  </div>
