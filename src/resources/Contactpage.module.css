@@ -1,29 +1,4 @@
 
-.RoundedButton{	
-	background-color: var(--primary-component-col);
-	color: var(--secondary-component-col);	
-	text-decoration:none;
-
-	justify-content: center;
-	align-items: center;
-
-	border: 5px solid var(--accent-col);
-	border-radius: 25px;
-	
-	width:fit-content;
-
-	max-height: fit-content;
-	
-	padding: 10px 15px;
-
-	display: flex;
-	flex-direction: row;
-	gap: 10px;
-}
-.RoundedButton:hover {
-	background-color: #363639;
-	border-color: #3a3a41;
-}
 
 .MainPanel{	
 	position: relative;

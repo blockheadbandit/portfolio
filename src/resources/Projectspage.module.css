@@ -1,3 +1,14 @@
+:root{
+	--primary-bg-col: #000000;
+	--secondary-bg-col: #0c0c0e;
+	--accent-col: #222226;
+	--accent-col-alt:#ccccce;
+	--primary-component-col: #1d1d1f;
+	--secondary-component-col: #e4e4e6;
+
+}
+
+
 .MainPanel{	
 	position: relative;
 	top: 100px;
@@ -9,4 +20,35 @@
 	border: 5px solid var(--accent-col);
 	border-radius: 20px;
 
+}
+
+
+.ProjectEntry{
+
+}
+.ProjectLinks{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+
+}
+.RepoButton{
+	composes: RoundedButton from "./Mainpage.module.css";
+
+}
+
+.RepoButton img{
+	height: 1.5em;
+	width: 1.5em;
+}
+
+.ReleaseButton:hover{
+	background-color: #7289da;
+	border-color: #4a67cf;
+}
+
+.ReleaseButton {
+	composes: RoundedButton from "./Mainpage.module.css";
+	border-color: #253c8e;
+	background-color: #4a67cf;
 }

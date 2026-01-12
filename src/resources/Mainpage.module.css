@@ -7,9 +7,17 @@
 	--secondary-component-col: #e4e4e6;
 
 }
+@media (max-width:700px){
+	.MenuBar{
+		font-size:12px;
+		font-weight: bold;
+	}
 
+}
 
 .MenuBar{
+	text-align: center;
+	z-index: 99;
 	position: fixed;
 	top: 8px;
 	left:0px;
@@ -25,6 +33,9 @@
 	border-radius: 20px;
 	height: 50px;
 	gap: 10px;
+	-moz-box-shadow: 0 0 5px var(--accent-col);
+	-webkit-box-shadow: 0 0 5px var(--accent-col);
+	box-shadow: 0 0 5px var(--accent-col);
 }
 
 .ButtonMenu{
@@ -39,7 +50,9 @@
 	margin-inline: auto;
 	background-color:var(--secondary-bg-col);
 	padding: 15px;
-	
+	-moz-box-shadow: 0 0 5px var(--accent-col);
+	-webkit-box-shadow: 0 0 5px var(--accent-col);
+	box-shadow: 0 0 5px var(--accent-col);
 	border: 5px solid var(--accent-col);
 	border-radius: 20px;
 
@@ -49,19 +62,13 @@
 	background-color: var(--primary-component-col);
 	color: var(--secondary-component-col);	
 	text-decoration:none;
-
 	justify-content: center;
 	align-items: center;
-
 	border: 5px solid var(--accent-col);
 	border-radius: 25px;
-	
 	width:fit-content;
-
 	max-height: fit-content;
-	
 	padding: 10px 15px;
-
 	display: flex;
 	flex-direction: row;
 	gap: 10px;
