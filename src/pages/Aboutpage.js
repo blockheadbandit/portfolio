@@ -11,7 +11,7 @@ export default function About() {
 			<h1>About Me</h1>
 			<p>Hi, I'm Reece.</p>
 			<p>I have made this website so that employers may see all my projects and access my cv.</p>
-			<p>This section is going to be a bit of a ramble about my interests so you can get to know a little about me. :)</p>
+			<p>This section is going to be a bit of a blog styled ramble about my interests so you can get to know a little about me. :)</p>
 			<p>
 				My spare time mostly consists of programming, playing guitar, gaming or reading.
 				If you would like to see any of my projects check out the My Projects section, I plan on putting a load of my personal projects onto github for people to see.
