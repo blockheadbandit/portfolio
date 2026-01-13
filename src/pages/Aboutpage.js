@@ -1,11 +1,12 @@
 
 import styles from '../resources/Aboutpage.module.css';
-import {TopBar} from './Mainpage.js';
+import {TopBar, SocialsBar} from './Mainpage.js';
 
 export default function About() {
   return (
     <div className="About">
-	 <TopBar /> 
+		<TopBar /> 
+		<SocialsBar />
 	  <div className={styles.MainPanel}>
 		<div>
 			<h1>About Me</h1>

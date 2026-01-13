@@ -16,7 +16,9 @@
 	margin-inline: auto;
 	background-color:var(--secondary-bg-col);
 	padding: 15px;
-	
+	-moz-box-shadow: 0 0 10px var(--accent-col);
+	-webkit-box-shadow: 0 0 10px var(--accent-col);
+	box-shadow: 0 0 10px var(--accent-col);
 	border: 5px solid var(--accent-col);
 	border-radius: 20px;
 

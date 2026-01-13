@@ -1,5 +1,5 @@
 import styles from '../resources/Projectspage.module.css';
-import {TopBar} from './Mainpage.js';
+import {TopBar, SocialsBar} from './Mainpage.js';
 import { Component } from 'react';
 
 
@@ -25,7 +25,8 @@ class ProjectEntry extends Component {
 export default function Projects() {
   return (
     <div className="Projects">
-	 <TopBar /> 
+	 <TopBar />
+	  <SocialsBar />
 	  <div className={styles.MainPanel}>
 		<div>
 			<h1>My Projects</h1>

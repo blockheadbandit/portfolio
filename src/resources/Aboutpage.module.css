@@ -1,3 +1,9 @@
+@media (max-width: 855px){
+	.MainPanel{
+		max-width: 80vw !important;
+	}
+
+}
 .MainPanel{	
 	position: relative;
 	top: 100px;
@@ -8,7 +14,9 @@
 	max-width: 60vw;	
 	border: 5px solid var(--accent-col);
 	border-radius: 20px;
-
+	-moz-box-shadow: 0 0 10px var(--accent-col);
+	-webkit-box-shadow: 0 0 10px var(--accent-col);
+	box-shadow: 0 0 10px var(--accent-col);
 }
 
 .RoundedButton{	

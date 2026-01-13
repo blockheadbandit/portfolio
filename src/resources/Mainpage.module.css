@@ -12,9 +12,45 @@
 		font-size:12px;
 		font-weight: bold;
 	}
-
+}
+@media (max-width:855px){
+	.SocialsBar{
+		bottom: 10px;
+		left: 10px;
+		max-width: 130px !important;
+		max-height: 30px !important;
+	}
+	.SocialsBar img{
+		height: 1em !important;
+		width: 1em !important;
+	}
 }
 
+.SocialsBar{
+	text-align: center;
+	z-index: 99;
+	position: fixed;	
+	width: fit-content;
+	max-width: calc(100vw - 8px * 2);
+	margin-inline: auto;
+	display: flex;
+	background-color: var(--secondary-bg-col);
+	justify-content: center;
+	padding: 10px;
+	border: 5px;
+	border-radius: 20px;
+	height: 50px;
+	gap: 10px;
+	-moz-box-shadow: 0 0 10px var(--accent-col);
+	-webkit-box-shadow: 0 0 10px var(--accent-col);
+	box-shadow: 0 0 10px var(--accent-col);
+}
+.SvgInvert {
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+
+
+}
 .MenuBar{
 	text-align: center;
 	z-index: 99;
@@ -33,9 +69,9 @@
 	border-radius: 20px;
 	height: 50px;
 	gap: 10px;
-	-moz-box-shadow: 0 0 5px var(--accent-col);
-	-webkit-box-shadow: 0 0 5px var(--accent-col);
-	box-shadow: 0 0 5px var(--accent-col);
+	-moz-box-shadow: 0 0 10px var(--accent-col);
+	-webkit-box-shadow: 0 0 10px var(--accent-col);
+	box-shadow: 0 0 10px var(--accent-col);
 }
 
 .ButtonMenu{
