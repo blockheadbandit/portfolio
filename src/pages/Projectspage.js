@@ -32,7 +32,7 @@ export default function Projects() {
 			<h1>My Projects</h1>
 			<p>Here are all the projects I have worked on and uploaded to the public, feel free to take a look at the code or download a release.</p>
 			<ProjectEntry name="Portfolio Website"
-				desc="I made this website with React, you can find the project repo below."
+				desc="I made this website with React, you can find the project repo below:"
 				repo="https://github.com/blockheadbandit/portfolio/tree/master"
 			/>
 			<ProjectEntry name="Ktempsensor" 

@@ -6,7 +6,8 @@
 }
 .MainPanel{	
 	position: relative;
-	top: 100px;
+	top: 90px;
+	bottom: 10px;
 	width:fit-content;
 	margin-inline: auto;
 	background-color:var(--secondary-bg-col);
@@ -17,6 +18,7 @@
 	-moz-box-shadow: 0 0 10px var(--accent-col);
 	-webkit-box-shadow: 0 0 10px var(--accent-col);
 	box-shadow: 0 0 10px var(--accent-col);
+	margin-bottom: 150px;
 }
 
 .RoundedButton{	

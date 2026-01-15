@@ -1,4 +1,10 @@
 
+@media (max-width: 855px){
+	.MainPanel{
+		max-width: 80vw !important;
+	}
+
+}
 
 .MainPanel{	
 	position: relative;
